@@ -10,11 +10,16 @@ App deployed to aws lambda using api gateway
 
 POST
 
-- https://cnmbi4ebgb.execute-api.us-east-1.amazonaws.com/production/api/v1/tasks
+- https://kc0ncz6pih.execute-api.us-east-1.amazonaws.com/production/api/tasks
+
+Body example
+
+
+{"description": "prueba aws","name": "test","email": "test@gmail.com","status": "estado","dueDate": "12/09/2021"}
 
 GET
 
-- https://cnmbi4ebgb.execute-api.us-east-1.amazonaws.com/production/api/v1/tasks
+- https://kc0ncz6pih.execute-api.us-east-1.amazonaws.com/production/api/tasks
 
 
 ....
